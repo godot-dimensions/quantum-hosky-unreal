@@ -98,6 +98,8 @@ Saved/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Binds.Cache
+Binds.Cache.Headers
 
 # Operating system files
 .DS_Store
