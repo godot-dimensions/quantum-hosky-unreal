@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Modules": [
+		{
+			"Name": "QHGame",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "QHEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Unreal4D",
+			"Enabled": true
+		}
+	],
+	"AdditionalPluginDirectories": [
+		"../../unreal-4d/Plugins"
+	]
+}
