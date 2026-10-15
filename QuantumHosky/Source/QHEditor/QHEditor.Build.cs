@@ -11,6 +11,8 @@ public class QHEditor : ModuleRules
 			"Core",
 			"CoreUObject",
 			"Engine",
+			"PhysicsCore",
+			"QHGame",
 			"Unreal4DCore",
 		});
 	}

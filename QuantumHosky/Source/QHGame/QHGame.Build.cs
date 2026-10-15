@@ -8,6 +8,8 @@ public class QHGame : ModuleRules
 
 		PublicDependencyModuleNames.AddRange(new string[]
 		{
+			"Chaos",
+			"ChaosCore",
 			"Core",
 			"CoreUObject",
 			"Engine",
