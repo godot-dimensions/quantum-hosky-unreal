@@ -1,0 +1,15 @@
+Water Materials
+Creator: tharlevfx
+Source: https://www.fab.com/listings/063155ea-d9d2-4f29-b09f-33270b0bc861
+
+The current Fab listing offers this work under Creative Commons Attribution
+4.0 International (CC BY 4.0), as checked on October 15, 2026.
+License: https://creativecommons.org/licenses/by/4.0/
+Legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The assets have been reorganized and modified for Quantum Hosky, and unused
+demo content has been removed. This attribution also covers the derived
+material at Content/Developers/ramon/FISHING_proto/materials/M_Water_Clean_dark.uasset.
+
+The project's general license does not replace the CC BY 4.0 license for
+this third-party work. Retain this attribution when redistributing it.

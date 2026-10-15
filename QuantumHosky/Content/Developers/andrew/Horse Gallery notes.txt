@@ -1,0 +1,2 @@
+The horses are arranged in order of how biologically plausible I consider them to be, with Horse 4,4 (rectangular) being most plausible, and Horse 3,3 (alt) least.
+4,4 (rectangular) and 4,4 (square) may appear similar, but the difference is that the rectangular one has lower symmetry. The rectangular one could have 2 or 4 eyes and ears, while the square one kind of has to have 4 of each. The precise distances between the legs are not meant to be important.

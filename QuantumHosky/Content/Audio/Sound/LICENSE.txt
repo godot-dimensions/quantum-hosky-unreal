@@ -1,0 +1,10 @@
+CC0 asset: SND_Whistle.uasset
+Original work: wolf_whistle.wav
+Creator: fauxpress
+Source: https://freesound.org/people/fauxpress/sounds/42197/
+
+License: CC0 1.0 Universal (Public Domain Dedication)
+https://creativecommons.org/publicdomain/zero/1.0/
+Legal text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+This notice covers only SND_Whistle.uasset.

@@ -1,0 +1,35 @@
+CC0 asset: TEX_Icon_Fish_01.uasset
+Original work: Salmon icon
+Creator: Various artists; original design by the Swedish Road Administration
+Source: https://game-icons.net/1x1/various-artists/salmon.html
+
+License: CC0 1.0 Universal (Public Domain Dedication)
+https://creativecommons.org/publicdomain/zero/1.0/
+Legal text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+This notice covers only TEX_Icon_Fish_01.uasset.
+
+CC BY 3.0 assets:
+
+TEX_Icon_Eye_01.uasset: Burning eye by Lorc
+Source: https://game-icons.net/1x1/lorc/burning-eye.html
+
+TEX_Icon_FishingPole_01.uasset: Fishing pole by Delapouite
+Source: https://game-icons.net/1x1/delapouite/fishing-pole.html
+
+TEX_Icon_Mushroom_01.uasset: Spotted mushroom by Lorc
+Source: https://game-icons.net/1x1/lorc/spotted-mushroom.html
+
+TEX_Icon_Potion_01.uasset: Round potion by Caro Asercion
+Source: https://game-icons.net/1x1/caro-asercion/round-potion.html
+
+TEX_Icon_Whistle_01.uasset: Whistle by Delapouite
+Source: https://game-icons.net/1x1/delapouite/whistle.html
+
+License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+https://creativecommons.org/licenses/by/3.0/
+Legal text: https://creativecommons.org/licenses/by/3.0/legalcode
+
+These five icons were converted to Unreal texture assets for Quantum Hosky.
+The project's general license does not replace CC BY 3.0 for these icons.
+Retain this attribution when redistributing them.

@@ -1,0 +1,12 @@
+CC BY 4.0 asset: M_Water_Clean_dark.uasset
+Derived from Water Materials by tharlevfx
+Source: https://www.fab.com/listings/063155ea-d9d2-4f29-b09f-33270b0bc861
+
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+Legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The original water material was modified for Quantum Hosky.
+This notice covers only M_Water_Clean_dark.uasset.
+The project's general license does not replace CC BY 4.0 for this work.
+Retain this attribution when redistributing it.

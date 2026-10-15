@@ -1,0 +1,107 @@
+{
+	"accessors": [
+		{
+			"bufferView": 0,
+			"componentType": "float16"
+		},
+		{
+			"bufferView": 1,
+			"componentType": "float16",
+			"vectorSize": 4
+		},
+		{
+			"bufferView": 2,
+			"componentType": "uint32",
+			"vectorSize": 4
+		},
+		{
+			"bufferView": 3,
+			"componentType": "uint32"
+		},
+		{
+			"bufferView": 4,
+			"componentType": "uint32"
+		},
+		{
+			"bufferView": 5,
+			"componentType": "float64",
+			"vectorSize": 4
+		},
+		{
+			"bufferView": 6,
+			"componentType": "float16",
+			"vectorSize": 3
+		}
+	],
+	"asset": {
+		"dimension": 4,
+		"generator": "Godot Engine 4.5.3 with Godot 4D module",
+		"specification": "https://github.com/godot-dimensions/g4mf"
+	},
+	"bufferViews": [
+		{
+			"byteLength": 235620
+		},
+		{
+			"byteLength": 942480,
+			"byteOffset": 235620
+		},
+		{
+			"byteLength": 8840000,
+			"byteOffset": 1178100
+		},
+		{
+			"byteLength": 8840000,
+			"byteOffset": 10018100
+		},
+		{
+			"byteLength": 8840000,
+			"byteOffset": 18858100
+		},
+		{
+			"byteLength": 1842208,
+			"byteOffset": 27698104
+		},
+		{
+			"byteLength": 706860,
+			"byteOffset": 29540312
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 30247172,
+			"uri": "ponds_heightmap_buffer0.bin"
+		}
+	],
+	"meshes": [
+		{
+			"name": "ponds_heightmap_mesh",
+			"surfaces": [{ "normals": { "simplexes": 3, "values": 5 }, "simplexes": 2, "textureMap": { "simplexes": 4, "values": 6 } }],
+			"vertices": 1
+		}
+	],
+	"nodes": [
+		{
+			"children": [1, 2],
+			"name": "PondsHeightmapBody",
+			"physics": { "motion": { "type": "static" } }
+		},
+		{
+			"name": "PondsHeightmapCollider",
+			"physics": { "collider": { "shape": 0 } }
+		},
+		{
+			"meshInstance": { "mesh": 0 },
+			"name": "PondsHeightmapMesh"
+		}
+	],
+	"shapes": [
+		{
+			"gridSize": [66, 35, 51],
+			"gridSpacing": [0.5, 0.5, 0.5],
+			"heights": 0,
+			"name": "ponds_heightmap_shape",
+			"type": "heightmap"
+		}
+	]
+}

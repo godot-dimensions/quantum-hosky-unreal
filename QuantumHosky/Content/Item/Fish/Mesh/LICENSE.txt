@@ -1,0 +1,15 @@
+3D KOI orange fish
+Creator: Sasha Carvajal (Sasha-carvajal on Fab)
+Source: https://www.fab.com/listings/6339b958-9535-40ef-baaf-37d6bcaf4950
+
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+Legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The model was imported into Unreal Engine for Quantum Hosky. Derived materials
+and recolored texture variants were created for the project.
+This notice covers MESH_Fish.uasset, the TEX_Fish_* textures, and the
+MAT_Fish_* materials in this folder.
+
+The project's general license does not replace CC BY 4.0 for this work.
+Retain this attribution when redistributing it.
