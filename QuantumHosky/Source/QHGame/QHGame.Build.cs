@@ -12,7 +12,12 @@ public class QHGame : ModuleRules
 			"ChaosCore",
 			"Core",
 			"CoreUObject",
+			"DeveloperSettings",
 			"Engine",
+			"EnhancedInput",
+			"GameplayTags",
+			"InputCore",
+			"UMG",
 			"Unreal4DCore",
 		});
 	}
