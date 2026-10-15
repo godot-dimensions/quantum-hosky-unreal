@@ -1,5 +1,7 @@
 #include "QHGame/Utility/QHHandle.h"
 
+#include "AngelscriptBinds.h"
+
 ////////////////////////////////////////////////////////////////////////////////
 int32 UQHHandleLibrary::NewCounter()
 {
@@ -17,3 +19,9 @@ bool UQHHandleLibrary::IsValid(const int32 InHandle)
 {
 	return (InHandle > 0);
 }
+
+////////////////////////////////////////////////////////////////////////////////
+AS_FORCE_LINK const FAngelscriptBinds::FBind Bind_QHHandle(FAngelscriptBinds::EOrder::Late, []
+{
+	FAngelscriptBinds::BindGlobalVariable("const int32 QH_HANDLE_INVALID", &QH_HANDLE_INVALID);
+});

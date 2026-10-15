@@ -8,6 +8,7 @@
 #include "QHGame/Physics/QHPhysics.h"
 #include "QHGame/Item/QHInventoryComponent.h"
 
+#include "AngelscriptBinds.h"
 #include "Components/StaticMeshComponent.h"
 
 //______________________________________________________________________________
@@ -729,3 +730,26 @@ bool UQHItemLibrary::ItemUsageResult_IsSuccess(const FQHItemUsageResult& InResul
 {
 	return InResult.IsSuccess();
 }
+
+////////////////////////////////////////////////////////////////////////////////
+AS_FORCE_LINK const FAngelscriptBinds::FBind Bind_QHItem(FAngelscriptBinds::EOrder::Late, []
+{
+	// FQHItemComponentUsageResult
+	{
+		FAngelscriptBinds Binds_QHItemComponentUsageResult = FAngelscriptBinds::ExistingClass("FQHItemComponentUsageResult");
+
+		// ctor
+		Binds_QHItemComponentUsageResult.Constructor("void f(const EQHItemUsageResultType InType, const FText& InReason)",
+		[](FQHItemComponentUsageResult* InThis, const EQHItemUsageResultType InType, const FText& InReason)
+		{
+			new (InThis) FQHItemComponentUsageResult(InType, InReason);
+		});
+
+		// EQHItemUsageResultType conversion ctor
+		Binds_QHItemComponentUsageResult.ImplicitConstructor("void f(const EQHItemUsageResultType InType)",
+		[](FQHItemComponentUsageResult* InThis, const EQHItemUsageResultType InType)
+		{
+			new (InThis) FQHItemComponentUsageResult(InType);
+		});
+	}
+});

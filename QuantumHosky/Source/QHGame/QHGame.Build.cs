@@ -8,6 +8,8 @@ public class QHGame : ModuleRules
 
 		PublicDependencyModuleNames.AddRange(new string[]
 		{
+			"AngelscriptCode",
+			"AngelscriptEnhancedInput",
 			"Chaos",
 			"ChaosCore",
 			"Core",
@@ -20,5 +22,7 @@ public class QHGame : ModuleRules
 			"UMG",
 			"Unreal4DCore",
 		});
+
+		OptimizeCode = CodeOptimization.InShippingBuildsOnly;
 	}
 }

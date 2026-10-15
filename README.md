@@ -4,7 +4,7 @@ Quantum Hosky Unreal project (2026), built on Unreal 4D https://github.com/godot
 
 ## Engine and checkout layout
 
-The engine needs the Unreal 4D engine patches.
+The engine needs both the Unreal 4D engine patches and Hazelight's AngelScript integration, including the Quantum Hosky binding changes.
 
 The default checkout layout is:
 
