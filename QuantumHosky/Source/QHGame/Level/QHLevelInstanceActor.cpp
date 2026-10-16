@@ -244,6 +244,8 @@ bool AQHLevelInstance::ShouldCookWorldAsset() const
 	return !IsTemplate() || GetDesiredRuntimeBehavior() == ELevelInstanceRuntimeBehavior::LevelStreaming;
 }
 
+#endif // WITH_EDITOR
+
 void AQHLevelInstance::ApplyLevelTransform4D(ULevel* InLevel, const FTransform4D& InTransform4D) const
 {
 	// Similar to FLevelUtils::ApplyLevelTransform
@@ -267,6 +269,8 @@ void AQHLevelInstance::ApplyLevelTransform4D(ULevel* InLevel, const FTransform4D
 		}
 	}
 }
+
+#if WITH_EDITOR
 
 void AQHLevelInstance::PreEditUndo()
 {
